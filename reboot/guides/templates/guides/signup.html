@@ -1,0 +1,10 @@
+<h1>User Signup Portal</h1>
+
+<fieldset>
+	<form action="{% url 'guides:guides_signup' %}" method='post'>
+		{%csrf_token %}
+		{{user_form.as_p}}
+		{{g_form.as_p}}
+		<button type='submit'>Sign Up</button>
+	</form>
+</fieldset>	

@@ -1,0 +1,13 @@
+<h1>User Login Portal</h1>
+{% if error %}
+<h2><strong>Invalid user login</strong></h2>
+<button><a href='signin'>Back to sign in page</a></button>
+{% else %}
+<fieldset>
+	<form action="{% url 'guides:signin' %}" method='post'>
+		{%csrf_token %}
+		{{user_form.as_p}}
+		<button type='submit'>Log In</button>
+	</form>
+</fieldset>	
+{% endif %}	

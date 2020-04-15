@@ -1,0 +1,8 @@
+Hi {{user.username}}
+Tourist
+
+<p>You Have logged in successfully</p>
+<form class='logout' action="{% url 'guides:signout' %}" method='post'>
+	{% csrf_token %}
+	<button class='logoutb' type="submit">Log Out</button>
+</form>	

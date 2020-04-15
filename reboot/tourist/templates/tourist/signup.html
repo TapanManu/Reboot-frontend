@@ -1,0 +1,13 @@
+<h1>User Signup Portal</h1>
+{% if count == 3 %}
+<h2><strong>Sorry Limit reached</strong></h2>
+{% else %}
+<fieldset>
+	<form action="{% url 'guides:tourist_signup' %}" method='post'>
+		{%csrf_token %}
+		{{user_form.as_p}}
+		{{i_form.as_p}}
+		<button type='submit'>Sign Up</button>
+	</form>
+</fieldset>
+{% endif %}		

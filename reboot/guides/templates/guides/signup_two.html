@@ -1,0 +1,13 @@
+{% if not error %}
+	<h1>Sorry,maximum login limit reached</h1>
+{% else %}	
+<fieldset>
+	<form action="{% url 'guides:signup_two' %}" method='post'>
+		{%csrf_token %}
+		{{g_form.as_p}}
+		{{c_form.as_p}}
+		{{s_form.as_p}}
+		<button type='submit'>Sign Up</button>
+	</form>
+</fieldset>
+{% endif %}

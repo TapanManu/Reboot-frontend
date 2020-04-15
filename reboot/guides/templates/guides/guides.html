@@ -1,0 +1,5 @@
+Hi {{user.username}}
+<form class='logout' action="{% url 'guides:signout' %}" method='post'>
+	{% csrf_token %}
+	<button class='logoutb' type="submit">Log Out</button>
+</form>	
