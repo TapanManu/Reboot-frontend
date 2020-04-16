@@ -19,6 +19,8 @@ Credits to its Developers :
    Veni Sajith
    Swati Suresh Nair
    Ananthu P
+   
+models.p is the ML Model performing sentiment analysis developed by Tapan Manu
 
 **The backend of the site was developed in Django Framework and is provided in another repo**
 
