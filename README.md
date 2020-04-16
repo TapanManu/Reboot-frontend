@@ -12,7 +12,7 @@ Note:It is Developed as a supporting platform to existing official Kerala Touris
 
 Moreover,It provides a rich UI Platform .
 
-Developed from the theme :**Responsive Tourism **
+Developed from the theme :  Responsive Tourism 
 
 Credits to its Developers :
  >Sahil Lukose
