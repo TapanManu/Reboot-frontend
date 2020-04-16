@@ -12,13 +12,14 @@ Note:It is Developed as a supporting platform to existing official Kerala Touris
 
 Moreover,It provides a rich UI Platform .
 Credits to its Developers :
- >1.Sahil Lukose
-  2.Veni Sajith
-  3.Swati Suresh Nair
-  4.Ananthu P
+ >Sahil Lukose
+   Veni Sajith
+   Swati Suresh Nair
+   Ananthu P
 
 **The backend of the site was developed in Django Framework and is provided in another repo**
 
 Developer: Tapan Manu
+
 Link:https:github.com/TapanManu/Reboot-Backend.git
 
