@@ -11,6 +11,9 @@ The site also filters provide ratings to Tourist guides based on their performan
 Note:It is Developed as a supporting platform to existing official Kerala Tourism Site.
 
 Moreover,It provides a rich UI Platform .
+
+Developed from the theme :**Responsive Tourism **
+
 Credits to its Developers :
  >Sahil Lukose
    Veni Sajith
@@ -21,5 +24,5 @@ Credits to its Developers :
 
 Developer: Tapan Manu
 
-Link:https:github.com/TapanManu/Reboot-Backend.git
+Link:https://github.com/TapanManu/Reboot-Backend.git
 
