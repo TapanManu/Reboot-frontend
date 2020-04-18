@@ -14,7 +14,7 @@ Moreover,It provides a rich UI Platform .
 
 Developed from the theme :  Responsive Tourism 
 
-Credits to its Developers :
+Credits to its Frontend Developers :
  >Sahil Lukose
    Veni Sajith
    Swati Suresh Nair
@@ -22,9 +22,9 @@ Credits to its Developers :
    
 models.p is the ML Model performing sentiment analysis developed by Tapan Manu
 
-**The backend of the site was developed in Django Framework and is provided in another repo**
+**The backend of the site was developed in Django Framework and is provided in this repo itself**
 
-Developer: Tapan Manu
+Backend Developer: Tapan Manu
 
 Link:https://github.com/TapanManu/Reboot-Backend.git
 
